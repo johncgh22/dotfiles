@@ -115,6 +115,8 @@ if ! shopt -oq posix; then
     . /etc/bash_completion
   fi
 fi
+
+## Turtlebot model config
 export TURTLEBOT3_MODEL=burger
 source "$HOME/.cargo/env"
 
