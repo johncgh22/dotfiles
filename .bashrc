@@ -138,6 +138,4 @@ alias yta-best="youtube-dl --extract-audio --audio-format best "
 alias yta-mp3="youtube-dl --extract-audio --audio-format mp3 "
 alias ytv-best="youtube-dl -f bestvideo+bestaudio "
 
-## ffmpeg
-alias mp3-conv='ffmpeg -i -vn -ar 44100 -ac 2 -b:a 192k
 
