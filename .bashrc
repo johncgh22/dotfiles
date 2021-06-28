@@ -124,3 +124,20 @@ colorscript random
 
 ## Git dotfiles Archivos .config
 alias config='/usr/bin/git --git-dir=/home/jcghros/dotfiles/ --work-tree=/home/jcghros'
+
+## Aliases de Diferentes programas/execuciones
+
+## nvim
+alias vim='nvim'
+
+## LSD
+alias la='lsd -Fal'
+
+## youtube-dl
+alias yta-best="youtube-dl --extract-audio --audio-format best "
+alias yta-mp3="youtube-dl --extract-audio --audio-format mp3 "
+alias ytv-best="youtube-dl -f bestvideo+bestaudio "
+
+## ffmpeg
+alias mp3-conv='ffmpeg -i -vn -ar 44100 -ac 2 -b:a 192k
+
