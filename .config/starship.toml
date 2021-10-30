@@ -23,3 +23,7 @@ truncation_symbol = "…/"
 [package]
 disabled = true
 
+# Nerd Font Symbols
+[git_branch]
+symbol = " "
+
