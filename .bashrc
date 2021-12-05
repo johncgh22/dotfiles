@@ -138,4 +138,5 @@ alias yta-best="youtube-dl --extract-audio --audio-format best "
 alias yta-mp3="youtube-dl --extract-audio --audio-format mp3 "
 alias ytv-best="youtube-dl -f bestvideo+bestaudio "
 
-
+# Modelo del TurtleBot3
+export TURTLEBOT3_MODEL=waffle
